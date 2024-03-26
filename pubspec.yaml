@@ -1,0 +1,37 @@
+name: project_ct484_green_grocery
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSansRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/OpenSansItalicLight.ttf
+          weight: 300
+        - asset: assets/fonts/OpenSansRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSansRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSansItalicSemiBold.ttf
+          weight: 600
